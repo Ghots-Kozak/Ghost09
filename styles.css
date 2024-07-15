@@ -1,0 +1,60 @@
+/* Estilos adicionales */
+body {
+    background-image: url(NUBES\ OSCURAS\ copy.jpg);
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo */
+    margin: 0; /* Eliminar márgenes del cuerpo para ajuste completo */
+    height: 100vh; /* Asegurar que el cuerpo ocupe toda la altura visible */
+    display: flex; /* Utilizar flexbox para diseño flexible */
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; /* Centrar verticalmente el contenido */
+}
+
+.container {
+    width: 100%; /* Ancho completo del contenedor */
+    height: 100%; /* Altura completa del contenedor */
+    max-width: 1200px; /* Ancho máximo del contenedor principal */
+    padding: 20px;
+    background-color:black; /* Fondo blanco para destacar el contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.   ); /* Sombra suave */
+}
+
+.navbar {
+    border-radius: 30px; /* Bordes redondeados para la barra de navegación */
+    margin-bottom: 3px; /* Separación del mapa */
+}
+
+.dropdown-menu {
+    border-radius: 30px; /* Bordes redondeados para el menú desplegable */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Sombra suave */
+   
+}
+
+#mapid {
+    width: 200%; /* Ancho completo del mapa */
+    height: 300%; /* Altura completa del mapa */
+    border-radius: 30px; /* Bordes redondeados para el mapa */
+    overflow: hidden; /* Evitar que el mapa se desborde */
+}
+
+
+/* Estilos para separar el mapa del menú */
+#mapid {
+    height: 70vh; /* Altura del mapa */
+    width: 100%; /* Ancho del mapa */
+    margin-top: 40px; /* Espacio arriba del mapa */
+    
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+    border-radius: 30px; /* Bordes redondeados */
+}
+
+/* Estilos para los botones */
+.btn {
+    margin-top: 30px; /* Espacio arriba de los botones */
+}
+
